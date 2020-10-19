@@ -1,3 +1,24 @@
 @media only screen and (min-width: 767px) {
-    
+    .nav__logo{
+        width: 96px;
+        height: 39px;
+        position: relative;
+        top: 16px;
+    }
+    .nav__list{
+        right: 27px;
+        top: 12px;
+    }
+    .nav{
+        margin: 0 27px 0 16px;
+    }
+    .nav__list__elem:first-of-type{
+        padding-right: 20px;
+    }
+    .nav__list__elem:nth-of-type(2){
+        padding: 0 21px;
+    }
+    .nav__list__elem:last-of-type{
+        padding-left: 20px;
+    }
 }

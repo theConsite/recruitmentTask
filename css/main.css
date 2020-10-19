@@ -1,6 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Sen:wght@400;700;800&display=swap');
 
 body{
+    scroll-behavior: smooth;
     font-family: "Sen";
     margin: 0;
+    
+}
+
+.nav{
+    height: 70px;
+    width: 100vw;
+    position: fixed;
+}
+.nav__list{
+    display: inline-block;
+    position: absolute;    
+}
+.nav__list__elem{
+    list-style: none;
+    display: inline-block;
+}
+.nav__list__elem>a{
+    text-decoration: none;
+    color: #1C2085;
 }
