@@ -21,4 +21,32 @@
     .nav__list__elem:last-of-type{
         padding-left: 12px;
     }
+    .header{
+        padding-left: 17px;
+        padding-top:110px;
+    }
+    .header__text{
+        font-size: 24px;
+        line-height: 32px;
+        width: calc(100vw - 34px);
+    }
+    .header__newsletter__text{
+        font-size: 14px;
+    }
+    .header__newsletter__mail{
+        width: calc(100vw - 17px);
+        margin-bottom: 16px;
+    }
+    .header__newsletter__button{
+        width: calc(100vw - 17px);
+    }
+    .header__arrow{
+        left: calc(50vw - 47px);
+    }
+    .socialIcons{
+        width: 30px;
+    }
+    .socialIcons__img{
+        width: 30px;
+    }
 }

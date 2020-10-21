@@ -4,7 +4,7 @@ body{
     scroll-behavior: smooth;
     font-family: "Sen";
     margin: 0;
-    
+    overflow-x: hidden;
 }
 
 .nav{
@@ -33,3 +33,69 @@ header{
     background-size: cover;
     background-position: bottom;
 }
+.header__text{
+    position: relative;
+    color: white;
+    font-weight: bold;
+}
+.header__newsletter__text{
+        line-height: 26px;
+        color: white;
+        mix-blend-mode: normal;
+        opacity: .7;
+    }
+.header__newsletter__mail{
+    height: 46px;
+    font-size: 17px;
+    padding-left: 20px;
+    border-radius: 23px;
+    border:none;
+    border: 2px solid rgba(56, 165, 219, 0);
+    transition: .2s linear;
+    box-sizing: border-box;
+    outline: none;
+}
+.header__newsletter__mail:hover, .header__newsletter__mail:focus{
+    border: 2px solid #38A5DB;
+}
+.header__newsletter__button{
+    position: relative;
+    color: white;
+    background-color: #38A5DB;
+    height: 46px;
+    border-radius: 23px;
+    border: 2px solid #38A5DB;
+    box-sizing: border-box;
+    font-size: 17px;
+    transition: .2s linear;
+    cursor: pointer;
+}
+.header__newsletter__button:hover{
+    border: 2px solid white;
+}
+.header__arrow{
+    width: 60px;
+    height: 60px;
+    position: relative;
+    top: 50px;
+}
+.header__arrow_img{
+    cursor: pointer;
+    transition: .2s linear;
+}
+.header__arrow_img:hover{
+    filter: brightness(.7)
+}
+.socialIcons{
+        position: fixed;
+        z-index: 11;
+        bottom: 30px;
+        right: 50px;
+    }
+    .socialIcons__img{
+        margin-bottom: 10px;
+        transition: .2s linear;
+    }
+    .socialIcons__img:hover{
+        filter: brightness(.7)
+    }

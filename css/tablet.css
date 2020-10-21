@@ -1,4 +1,5 @@
 @media only screen and (min-width: 767px) {
+
     .nav__logo{
         width: 96px;
         height: 39px;
@@ -6,7 +7,7 @@
         top: 16px;
     }
     .nav__list{
-        right: 27px;
+        right: 38px;
         top: 12px;
     }
     .nav{
@@ -20,5 +21,33 @@
     }
     .nav__list__elem:last-of-type{
         padding-left: 20px;
+    }
+    .header__text{
+        width: 569px;
+        font-size: 40px;
+        line-height: 65px;
+    }
+    .header{
+        padding-left: 79px;
+        padding-top:150px;
+    }
+    .header__newsletter__text{
+        font-size: 18px;
+    }
+    .header__newsletter__mail{
+        width: calc(100vw - 240px);
+    }
+    .header__newsletter__button{
+        width: 154px;
+        left: -70px;
+    }
+    .header__arrow{
+        left: calc(50vw - 109px);
+    }
+    .socialIcons{
+        width: 40px;
+    }
+    .socialIcons__img{
+        width: 40px;
     }
 }

@@ -6,4 +6,18 @@
         right: 136px;
         top: 12px;
     }
+    .header{
+        padding-left: 136px;
+        padding-top:250px;
+    }
+    .header__newsletter__mail{
+        width: 480px;
+    }
+    .header__newsletter__button{
+        width: 154px;
+        left: -70px;
+    }
+    .header__arrow{
+        left: calc(50vw - 166px);
+    }
 }
