@@ -1,6 +1,7 @@
 <!--If you read this message, please forgive me if I used BEM convention incorrectly. To be honest, I've used it for the first time in my life and I'm not sure if I used it as intended. However, I've tried:) ~Adrian-->
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,6 +11,7 @@
     <link rel="stylesheet" href="css/tablet.css">
     <link rel="stylesheet" href="css/desktop.css">
 </head>
+
 <body>
     <nav class="nav">
         <img class="nav__logo" src="img/logo.svg" alt="">
@@ -43,14 +45,74 @@
     <div class="videoContainer">
         <video class="videoContainer__video" src="img/video.mp4" controls></video>
     </div>
-    <div class="team">
-        
+    <div id="team" class="team">
+    <div class="team__title">TEAM</div>
+    <div class="team__members__helper">
+        <div class="team__members">
+     <div class="team__members__card">
+         <img src="img/Edgar.png" alt="" class="team__members__card__photo">
+         <div class="team__members__card__name">Edgar Morrison</div>
+         <div class="team__members__card__position">CEO</div>
+         <div class="team__members__card__shortdesc">
+             Having used discount toner cartridges for twenty years, there have been a lot of changes in the toner...
+         </div>
+         <a href="">
+             <img src="img/facebook_button.svg" alt="" class="team__members__card__social">
+         </a>
+         <a href="">
+             <img src="img/linkedIn_button.svg" alt="" class="team__members__card__social">
+         </a>
+     </div>
+     <div class="team__members__card">
+         <img src="img/Mae.png" alt="" class="team__members__card__photo">
+         <div class="team__members__card__name">Mae Martin</div>
+         <div class="team__members__card__position">CTO</div>
+         <div class="team__members__card__shortdesc">
+             Having used discount toner cartridges for twenty years, there have been a lot of changes in the toner...
+         </div>
+         <a href="">
+             <img src="img/facebook_button.svg" alt="" class="team__members__card__social">
+         </a>
+         <a href="">
+             <img src="img/linkedIn_button.svg" alt="" class="team__members__card__social">
+         </a>
+     </div>
+     <div class="team__members__card">
+         <img src="img/David.png" alt="" class="team__members__card__photo">
+         <div class="team__members__card__name">David Banks</div>
+         <div class="team__members__card__position">CFO</div>
+         <div class="team__members__card__shortdesc">
+             Having used discount toner cartridges for twenty years, there have been a lot of changes in the toner...
+         </div>
+         <a href="">
+             <img src="img/facebook_button.svg" alt="" class="team__members__card__social">
+         </a>
+         <a href="">
+             <img src="img/linkedIn_button.svg" alt="" class="team__members__card__social">
+         </a>
+     </div>
+     <div class="team__members__card">
+         <img src="img/Fredrick.png" alt="" class="team__members__card__photo">
+         <div class="team__members__card__name">Frederick Parsons</div>
+         <div class="team__members__card__position">COO</div>
+         <div class="team__members__card__shortdesc">
+             Having used discount toner cartridges for twenty years, there have been a lot of changes in the toner...
+         </div>
+         <a href="">
+             <img src="img/facebook_button.svg" alt="" class="team__members__card__social">
+         </a>
+         <a href="">
+             <img src="img/linkedIn_button.svg" alt="" class="team__members__card__social">
+         </a>
+     </div>
     </div>
-    <div class="contact">
+    </div>
+    </div>
+    <div class="contact" id="contact">
         <div class="contact__title">CONTACT US</div>
         <div class="contact__text">Most calendars are designed for teams.
-        <br>
-Slate is designed for freelancers</div>
+            <br>
+            Slate is designed for freelancers</div>
         <form class="contact__form">
             <input type="text" class="contact__form__input" placeholder="Your Name">
             <input type="email" class="contact__form__mail" placeholder="Your Email">
@@ -82,4 +144,5 @@ Slate is designed for freelancers</div>
     </div>
     <script src="js/main.js"></script>
 </body>
+
 </html>

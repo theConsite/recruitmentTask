@@ -1,37 +1,38 @@
 @import url('https://fonts.googleapis.com/css2?family=Sen:wght@400;700;800&display=swap');
-input{
+input {
     outline: none;
 }
-a{
+a {
     text-decoration: none;
 }
-body{
+html{
     scroll-behavior: smooth;
+}
+body {
     font-family: "Sen";
     margin: 0;
     overflow-x: hidden;
 }
-
-.nav{
+.nav {
     height: 70px;
     width: 100vw;
     position: fixed;
     z-index: 11;
     background: white;
 }
-.nav__list{
+.nav__list {
     display: inline-block;
-    position: absolute;    
+    position: absolute;
 }
-.nav__list__elem{
+.nav__list__elem {
     list-style: none;
     display: inline-block;
 }
-.nav__list__elem>a{
+.nav__list__elem > a {
     text-decoration: none;
     color: #1C2085;
 }
-header{
+header {
     height: calc(100vh - 70px);
     position: relative;
     top: 70px;
@@ -40,18 +41,18 @@ header{
     background-position: bottom;
     margin-bottom: 100px;
 }
-.header__text{
+.header__text {
     position: relative;
     color: white;
     font-weight: bold;
 }
-.header__newsletter__text{
-        line-height: 26px;
-        color: white;
-        mix-blend-mode: normal;
-        opacity: .7;
-    }
-.header__newsletter__mail{
+.header__newsletter__text {
+    line-height: 26px;
+    color: white;
+    mix-blend-mode: normal;
+    opacity: .7;
+}
+.header__newsletter__mail {
     height: 46px;
     font-size: 17px;
     padding-left: 20px;
@@ -61,10 +62,11 @@ header{
     box-sizing: border-box;
     outline: none;
 }
-.header__newsletter__mail:hover, .header__newsletter__mail:focus{
+.header__newsletter__mail:hover,
+.header__newsletter__mail:focus {
     border: 2px solid #38A5DB;
 }
-.header__newsletter__button{
+.header__newsletter__button {
     position: relative;
     color: white;
     background-color: #38A5DB;
@@ -76,82 +78,92 @@ header{
     transition: .2s linear;
     cursor: pointer;
 }
-.header__newsletter__button:hover{
+.header__newsletter__button:hover {
     border: 2px solid white;
 }
-.header__arrow{
+.header__arrow {
     width: 60px;
     height: 60px;
     position: relative;
     top: 50px;
 }
-.header__arrow_img{
+.header__arrow_img {
     cursor: pointer;
     transition: .2s linear;
 }
-.header__arrow_img:hover{
+.header__arrow_img:hover {
     filter: brightness(.7)
 }
-.socialIcons{
-        position: fixed;
-        z-index: 11;
-        bottom: 30px;
-        right: 50px;
-    }
-    .socialIcons__img{
-        margin-bottom: 10px;
-        transition: .2s linear;
-    }
-    .socialIcons__img:hover{
-        filter: brightness(.7)
-    }
-.contact{
+.socialIcons {
+    position: fixed;
+    z-index: 11;
+    bottom: 30px;
+    right: 50px;
+}
+.socialIcons__img {
+    margin-bottom: 10px;
+    transition: .2s linear;
+}
+.socialIcons__img:hover {
+    filter: brightness(.7)
+}
+.contact {
     background-color: #252B42;
     color: white;
     text-align: center;
     padding: 88px 28px 78px 28px;
 }
-.contact__title{
+.contact__title {
     line-height: 34px;
     letter-spacing: 12px;
     margin-bottom: 34px;
 }
-.contact__text{
+.contact__title, .team__title {
+    line-height: 34px;
+    letter-spacing: 12px;
+    margin-bottom: 34px;
+}
+
+.contact__text {
     margin-bottom: 50px;
 }
-.contact__form:nth-child(n){
+.contact__form:nth-child(n) {
     display: inline-block;
 }
-.contact__form{
+.contact__form {
     background-color: #4250BF;
     border-radius: 13px;
     text-align: left;
 }
-.contact__form__input, .contact__form__mail{
+.contact__form__input,
+.contact__form__mail {
     border: 2px solid rgba(56, 165, 219, 0);
     transition: .2s linear;
     box-sizing: border-box;
     margin-bottom: 24px;
     width: 100%;
-        height: 46px;
-        border-radius: 23px;
+    height: 46px;
+    border-radius: 23px;
     padding-left: 20px;
     font-size: 17px;
 }
-.contact__form__input:hover, .contact__form__input:focus, .contact__form__mail:hover, .contact__form__mail:focus{
+.contact__form__input:hover,
+.contact__form__input:focus,
+.contact__form__mail:hover,
+.contact__form__mail:focus {
     border: 2px solid #38A5DB;
 }
-.contact__form__button{
+.contact__form__button {
     display: block;
 }
-.contact__form__checkbox{
+.contact__form__checkbox {
     width: 24px;
     height: 24px;
     position: relative;
     top: 6px;
     margin-bottom: 20px;
 }
-.contact__form__button{
+.contact__form__button {
     height: 46px;
     border-radius: 23px;
     border: 2px solid #38A5DB;
@@ -163,26 +175,29 @@ header{
     color: white;
     width: 95px;
 }
-.contact__form__button:hover{
+.contact__form__button:hover {
     border: 2px solid white;
 }
-input, button{
+input,
+button {
     font-family: "Sen";
 }
-.footer__main{
+.footer__main {
     text-align: center;
 }
-.footer__header, .footer__main{
+.footer__header,
+.footer__main {
     display: grid;
 }
-.footer{
+.footer {
     color: #45515F;
     background: linear-gradient(180deg, #FAFBFF 0%, #EFF1F9 41.68%, #E9ECF6 49.59%, #CED3E8 93.91%);
 }
-.footer__header__mail, .footer__header__read{
+.footer__header__mail,
+.footer__header__read {
     text-align: center;
 }
-.footer__header__read__button{
+.footer__header__read__button {
     width: 220px;
     height: 46px;
     border-radius: 23px;
@@ -196,20 +211,47 @@ input, button{
     transition: .2s linear;
     cursor: pointer;
 }
-.footer__header__read__button:hover{
+.footer__header__read__button:hover {
     border: 2px solid white;
 }
-.footer__header__mail a{
+.footer__header__mail a {
     color: #0F81FF;
     font-size: 20px;
 }
-.videoContainer__video{
+.videoContainer__video {
     border-radius: 10px;
     width: 90vw;
 }
-.videoContainer{
+.videoContainer {
     width: 90vw;
-        margin: 0 auto;
-        
+    margin: 0 auto;
 }
-
+.team{
+    text-align: center;
+    margin-bottom: 94px;
+}
+.team__members__card{
+    display: inline-block;
+    text-align: center;
+}
+.team__members__card__photo{
+    border-radius: 50%;
+}
+.team__members__card__social{
+    transition: .1s linear;
+}
+.team__members__card__social:hover{
+    filter: brightness(.1);
+}
+.team__members__card__name{
+    margin: 10px 0;
+    color: #38A5DB;
+}
+.team__members__card__position{
+    margin-bottom: 16px;
+    color: #011226;
+}
+.team__members__card__shortdesc{
+    margin-bottom: 32px;
+    color: #45515F;
+}

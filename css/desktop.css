@@ -1,39 +1,48 @@
 @media only screen and (min-width: 960px) {
-    .nav__logo{
+    .nav__logo {
         margin: 0 136px;
     }
-    .nav__list{
+
+    .nav__list {
         right: 136px;
         top: 12px;
     }
-    .header{
+
+    .header {
         padding-left: 136px;
-        padding-top:250px;
+        padding-top: 250px;
     }
-    .header__newsletter__mail{
+
+    .header__newsletter__mail {
         width: 480px;
     }
-    .header__newsletter__button{
+
+    .header__newsletter__button {
         width: 154px;
         left: -70px;
     }
-    .header__arrow{
+
+    .header__arrow {
         left: calc(50vw - 166px);
     }
-    .footer__main{
+
+    .footer__main {
         width: 850px;
         position: relative;
     }
-    .footer__header{
+
+    .footer__header {
         padding: 0 135px;
     }
-    .videoContainer{
-    width: 500px;
+
+    .videoContainer {
+        width: 500px;
         position: absolute;
         top: 270px;
         right: 70px;
-}
-    .videoContainer__video{
-    width: 500px;
-}
+    }
+
+    .videoContainer__video {
+        width: 500px;
+    }
 }

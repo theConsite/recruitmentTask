@@ -1,88 +1,144 @@
 @media only screen and (min-width: 767px) {
-
-    .nav__logo{
+    .nav__logo {
         width: 96px;
         height: 39px;
         position: relative;
         top: 16px;
     }
-    .nav__list{
+
+    .nav__list {
         right: 90px;
         top: 12px;
     }
-    .nav{
+
+    .nav {
         padding: 0 27px 0 16px;
     }
-    .nav__list__elem:first-of-type{
+
+    .nav__list__elem:first-of-type {
         padding-right: 20px;
     }
-    .nav__list__elem:nth-of-type(2){
+
+    .nav__list__elem:nth-of-type(2) {
         padding: 0 21px;
     }
-    .nav__list__elem:last-of-type{
+
+    .nav__list__elem:last-of-type {
         padding-left: 20px;
     }
-    .header__text{
+
+    .header__text {
         width: 569px;
         font-size: 40px;
         line-height: 65px;
     }
-    .header{
+
+    .header {
         padding-left: 79px;
-        padding-top:150px;
+        padding-top: 150px;
     }
-    .header__newsletter__text{
+
+    .header__newsletter__text {
         font-size: 18px;
     }
-    .header__newsletter__mail{
+
+    .header__newsletter__mail {
         width: calc(100vw - 270px);
     }
-    .header__newsletter__button{
+
+    .header__newsletter__button {
         width: 154px;
         left: -70px;
     }
-    .header__arrow{
+
+    .header__arrow {
         left: calc(50vw - 109px);
     }
-    .socialIcons{
+
+    .socialIcons {
         width: 40px;
     }
-    .socialIcons__img{
+
+    .socialIcons__img {
         width: 40px;
     }
-    .contact__title{
-    line-height: 34px;
-    letter-spacing: 12px;
-    margin-bottom: 34px;
-}
-    .contact__form{
+
+    .contact__title {
+        line-height: 34px;
+        letter-spacing: 12px;
+        margin-bottom: 34px;
+    }
+
+    .contact__form {
         width: 401px;
         height: 370px;
         padding: 84px 41px 0 41px;
         box-sizing: border-box;
     }
-    .footer__header{
+
+    .footer__header {
         grid-template-columns: 33% 33% 33%;
         margin-top: 44px;
         padding: 0 15px;
     }
-    .footer__main{
+
+    .footer__main {
         grid-template-columns: 25% 25% 25% 25%;
         font-size: 18px;
         line-height: 25px;
         margin: 0 auto;
         padding: 44px 0;
     }
-    .footer_link{
+
+    .footer_link {
         color: #45515F;
     }
-    .footer__main__faq{
+
+    .footer__main__faq {
         border-left: 2px solid #9CA4C7;
         border-right: 1px solid #9CA4C7;
     }
-    .footer__main__terms{
+
+    .footer__main__terms {
         border-left: 1px solid #9CA4C7;
         border-right: 2px solid #9CA4C7;
     }
-    
+
+    .team__members {
+        height: 400px;
+        width: 1261px;
+    }
+
+    .team__members__helper {
+        height: 400px;
+        width: 100vw;
+        overflow: scroll;
+    }
+
+    .team__members__card {
+        width: 270px;
+        margin: 15px
+    }
+
+    .team__members__card__name {
+        font-size: 24px;
+    }
+
+    .team__members__card__position {
+        font-size: 13px;
+    }
+
+    .team__members__card__shortdesc {
+        font-size: 18px;
+    }
+
+    .team__members__helper::-webkit-scrollbar {
+        display: none;
+    }
+
+    .team__members__helper {
+        -ms-overflow-style: none;
+        /* IE and Edge */
+        scrollbar-width: none;
+    }
 }
