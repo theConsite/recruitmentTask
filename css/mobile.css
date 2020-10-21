@@ -1,4 +1,4 @@
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 767px) {
     .nav__logo{
         width: 56px;
         height: 22px;
@@ -6,11 +6,11 @@
         top: 24px;
     }
     .nav__list{
-        right: 27px;
+        right: 70px;
         top: 12px;
     }
     .nav{
-        margin: 0 27px 0 16px;
+        padding: 0 27px 0 16px;
     }
     .nav__list__elem:first-of-type{
         padding-right: 12px;
@@ -34,11 +34,11 @@
         font-size: 14px;
     }
     .header__newsletter__mail{
-        width: calc(100vw - 17px);
+        width: calc(100vw - 34px);
         margin-bottom: 16px;
     }
     .header__newsletter__button{
-        width: calc(100vw - 17px);
+        width: calc(100vw - 34px);
     }
     .header__arrow{
         left: calc(50vw - 47px);
@@ -48,5 +48,14 @@
     }
     .socialIcons__img{
         width: 30px;
+    }
+    .contact__text{
+    font-size: 14px;
+}
+    .contact__form{
+        width: 288px;
+        height: 370px;
+        padding: 84px 16px 0 16px;
+        box-sizing: border-box;
     }
 }

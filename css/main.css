@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Sen:wght@400;700;800&display=swap');
-
+input{
+    outline: none;
+}
 body{
     scroll-behavior: smooth;
     font-family: "Sen";
@@ -11,6 +13,8 @@ body{
     height: 70px;
     width: 100vw;
     position: fixed;
+    z-index: 11;
+    background: white;
 }
 .nav__list{
     display: inline-block;
@@ -25,13 +29,13 @@ body{
     color: #1C2085;
 }
 header{
-    width: 100vw;
     height: calc(100vh - 70px);
     position: relative;
     top: 70px;
     background-image: url(../img/header_background.svg);
     background-size: cover;
     background-position: bottom;
+    margin-bottom: 100px;
 }
 .header__text{
     position: relative;
@@ -49,7 +53,6 @@ header{
     font-size: 17px;
     padding-left: 20px;
     border-radius: 23px;
-    border:none;
     border: 2px solid rgba(56, 165, 219, 0);
     transition: .2s linear;
     box-sizing: border-box;
@@ -99,3 +102,67 @@ header{
     .socialIcons__img:hover{
         filter: brightness(.7)
     }
+.contact{
+    background-color: #252B42;
+    color: white;
+    text-align: center;
+    padding: 88px 28px 78px 28px;
+}
+.contact__title{
+    line-height: 34px;
+    letter-spacing: 12px;
+    margin-bottom: 34px;
+}
+.contact__text{
+    margin-bottom: 50px;
+}
+.contact__form:nth-child(n){
+    display: inline-block;
+}
+.contact__form{
+    background-color: #4250BF;
+    border-radius: 13px;
+    text-align: left;
+}
+.contact__form__input, .contact__form__mail{
+    border: 2px solid rgba(56, 165, 219, 0);
+    transition: .2s linear;
+    box-sizing: border-box;
+    margin-bottom: 24px;
+    width: 100%;
+        height: 46px;
+        border-radius: 23px;
+    padding-left: 20px;
+    font-size: 17px;
+}
+.contact__form__input:hover, .contact__form__input:focus, .contact__form__mail:hover, .contact__form__mail:focus{
+    border: 2px solid #38A5DB;
+}
+.contact__form__button{
+    display: block;
+}
+.contact__form__checkbox{
+    width: 24px;
+    height: 24px;
+    position: relative;
+    top: 6px;
+    margin-bottom: 20px;
+}
+.contact__form__button{
+    height: 46px;
+    border-radius: 23px;
+    border: 2px solid #38A5DB;
+    background: #38A5DB;
+    box-sizing: border-box;
+    font-size: 17px;
+    transition: .2s linear;
+    cursor: pointer;
+    color: white;
+    width: 95px;
+}
+.contact__form__button:hover{
+    border: 2px solid white;
+}
+input, button{
+    font-family: "Sen";
+}
