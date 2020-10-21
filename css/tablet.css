@@ -5,83 +5,66 @@
         position: relative;
         top: 16px;
     }
-
     .nav__list {
         right: 90px;
         top: 12px;
     }
-
     .nav {
         padding: 0 27px 0 16px;
     }
-
     .nav__list__elem:first-of-type {
         padding-right: 20px;
     }
-
     .nav__list__elem:nth-of-type(2) {
         padding: 0 21px;
     }
-
     .nav__list__elem:last-of-type {
         padding-left: 20px;
     }
-
     .header__text {
         width: 569px;
         font-size: 40px;
         line-height: 65px;
     }
-
     .header {
         padding-left: 79px;
         padding-top: 150px;
     }
-
     .header__newsletter__text {
         font-size: 18px;
     }
-
     .header__newsletter__mail {
         width: calc(100vw - 270px);
     }
-
     .header__newsletter__button {
         width: 154px;
         left: -70px;
     }
-
     .header__arrow {
         left: calc(50vw - 109px);
     }
-
     .socialIcons {
         width: 40px;
     }
-
     .socialIcons__img {
         width: 40px;
     }
-
     .contact__title {
         line-height: 34px;
         letter-spacing: 12px;
         margin-bottom: 34px;
     }
-
     .contact__form {
         width: 401px;
         height: 370px;
         padding: 84px 41px 0 41px;
         box-sizing: border-box;
     }
-
     .footer__header {
         grid-template-columns: 33% 33% 33%;
         margin-top: 44px;
         padding: 0 15px;
     }
-
     .footer__main {
         grid-template-columns: 25% 25% 25% 25%;
         font-size: 18px;
@@ -89,56 +72,62 @@
         margin: 0 auto;
         padding: 44px 0;
     }
-
     .footer_link {
         color: #45515F;
     }
-
     .footer__main__faq {
         border-left: 2px solid #9CA4C7;
         border-right: 1px solid #9CA4C7;
     }
-
     .footer__main__terms {
         border-left: 1px solid #9CA4C7;
         border-right: 2px solid #9CA4C7;
     }
-
     .team__members {
         height: 400px;
         width: 1261px;
     }
-
     .team__members__helper {
         height: 400px;
         width: 100vw;
         overflow: scroll;
     }
-
     .team__members__card {
         width: 270px;
         margin: 15px
     }
-
     .team__members__card__name {
         font-size: 24px;
     }
-
     .team__members__card__position {
         font-size: 13px;
     }
-
     .team__members__card__shortdesc {
         font-size: 18px;
     }
-
     .team__members__helper::-webkit-scrollbar {
         display: none;
     }
-
     .team__members__helper {
         -ms-overflow-style: none;
         /* IE and Edge */
         scrollbar-width: none;
+    }
+    .shadowBox__content{
+        width: 630px;
+        max-width: calc(100vw - 140px);
+        padding: 72px 30px 40px 30px;
+        box-sizing: border-box;
+    }
+    .shadowBox__content__title {
+        font-size: 40px;
+        margin-bottom: 24px;
+    }
+    .shadowBox__content__position {
+        margin-bottom: 32px;
+        font-size: 13px;
+    }
+    .shadowBox__content__text {
+        font-size: 18px;
     }
 }

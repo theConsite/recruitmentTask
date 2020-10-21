@@ -16,9 +16,9 @@
     <nav class="nav">
         <img class="nav__logo" src="img/logo.svg" alt="">
         <ul class="nav__list">
-            <li class="nav__list__elem"><a href="#">ICO</a></li>
-            <li class="nav__list__elem"><a href="#team">Team</a></li>
-            <li class="nav__list__elem"><a href="#contact">Contact</a></li>
+            <li class="nav__list__elem"><a class="nav__list__elem__link" href="#">ICO</a></li>
+            <li class="nav__list__elem"><a class="nav__list__elem__link" href="#team">Team</a></li>
+            <li class="nav__list__elem"><a class="nav__list__elem__link" href="#contact">Contact</a></li>
         </ul>
     </nav>
     <div class="socialIcons">
@@ -38,7 +38,7 @@
             <input type="email" placeholder="Enter your email" class="header__newsletter__mail">
             <button class="header__newsletter__button">Subscribe</button>
         </div>
-        <div class="header__arrow">
+        <div class="header__arrow" onclick="header_scroll()">
             <img class="header__arrow_img" src="img/arrow.svg" alt="">
         </div>
     </header>
@@ -46,67 +46,67 @@
         <video class="videoContainer__video" src="img/video.mp4" controls></video>
     </div>
     <div id="team" class="team">
-    <div class="team__title">TEAM</div>
-    <div class="team__members__helper">
-        <div class="team__members">
-     <div class="team__members__card">
-         <img src="img/Edgar.png" alt="" class="team__members__card__photo">
-         <div class="team__members__card__name">Edgar Morrison</div>
-         <div class="team__members__card__position">CEO</div>
-         <div class="team__members__card__shortdesc">
-             Having used discount toner cartridges for twenty years, there have been a lot of changes in the toner...
-         </div>
-         <a href="">
-             <img src="img/facebook_button.svg" alt="" class="team__members__card__social">
-         </a>
-         <a href="">
-             <img src="img/linkedIn_button.svg" alt="" class="team__members__card__social">
-         </a>
-     </div>
-     <div class="team__members__card">
-         <img src="img/Mae.png" alt="" class="team__members__card__photo">
-         <div class="team__members__card__name">Mae Martin</div>
-         <div class="team__members__card__position">CTO</div>
-         <div class="team__members__card__shortdesc">
-             Having used discount toner cartridges for twenty years, there have been a lot of changes in the toner...
-         </div>
-         <a href="">
-             <img src="img/facebook_button.svg" alt="" class="team__members__card__social">
-         </a>
-         <a href="">
-             <img src="img/linkedIn_button.svg" alt="" class="team__members__card__social">
-         </a>
-     </div>
-     <div class="team__members__card">
-         <img src="img/David.png" alt="" class="team__members__card__photo">
-         <div class="team__members__card__name">David Banks</div>
-         <div class="team__members__card__position">CFO</div>
-         <div class="team__members__card__shortdesc">
-             Having used discount toner cartridges for twenty years, there have been a lot of changes in the toner...
-         </div>
-         <a href="">
-             <img src="img/facebook_button.svg" alt="" class="team__members__card__social">
-         </a>
-         <a href="">
-             <img src="img/linkedIn_button.svg" alt="" class="team__members__card__social">
-         </a>
-     </div>
-     <div class="team__members__card">
-         <img src="img/Fredrick.png" alt="" class="team__members__card__photo">
-         <div class="team__members__card__name">Frederick Parsons</div>
-         <div class="team__members__card__position">COO</div>
-         <div class="team__members__card__shortdesc">
-             Having used discount toner cartridges for twenty years, there have been a lot of changes in the toner...
-         </div>
-         <a href="">
-             <img src="img/facebook_button.svg" alt="" class="team__members__card__social">
-         </a>
-         <a href="">
-             <img src="img/linkedIn_button.svg" alt="" class="team__members__card__social">
-         </a>
-     </div>
-    </div>
-    </div>
+        <div class="team__title">TEAM</div>
+        <div class="team__members__helper">
+            <div class="team__members">
+                <div class="team__members__card">
+                    <img src="img/Edgar.png" alt="" class="team__members__card__photo">
+                    <div class="team__members__card__name">Edgar Morrison</div>
+                    <div class="team__members__card__position">CEO</div>
+                    <div class="team__members__card__shortdesc" onclick="shadowbox_open('Edgar')">
+                        Having used discount toner cartridges for twenty years, there have been a lot of changes in the toner...
+                    </div>
+                    <a href="">
+                        <img src="img/facebook_button.svg" alt="" class="team__members__card__social">
+                    </a>
+                    <a href="">
+                        <img src="img/linkedIn_button.svg" alt="" class="team__members__card__social">
+                    </a>
+                </div>
+                <div class="team__members__card">
+                    <img src="img/Mae.png" alt="" class="team__members__card__photo">
+                    <div class="team__members__card__name">Mae Martin</div>
+                    <div class="team__members__card__position">CTO</div>
+                    <div class="team__members__card__shortdesc" onclick="shadowbox_open('Mae')">
+                        Having used discount toner cartridges for twenty years, there have been a lot of changes in the toner...
+                    </div>
+                    <a href="">
+                        <img src="img/facebook_button.svg" alt="" class="team__members__card__social">
+                    </a>
+                    <a href="">
+                        <img src="img/linkedIn_button.svg" alt="" class="team__members__card__social">
+                    </a>
+                </div>
+                <div class="team__members__card">
+                    <img src="img/David.png" alt="" class="team__members__card__photo">
+                    <div class="team__members__card__name">David Banks</div>
+                    <div class="team__members__card__position">CFO</div>
+                    <div class="team__members__card__shortdesc" onclick="shadowbox_open('David')">
+                        Having used discount toner cartridges for twenty years, there have been a lot of changes in the toner...
+                    </div>
+                    <a href="">
+                        <img src="img/facebook_button.svg" alt="" class="team__members__card__social">
+                    </a>
+                    <a href="">
+                        <img src="img/linkedIn_button.svg" alt="" class="team__members__card__social">
+                    </a>
+                </div>
+                <div class="team__members__card">
+                    <img src="img/Frederick.png" alt="" class="team__members__card__photo">
+                    <div class="team__members__card__name">Frederick Parsons</div>
+                    <div class="team__members__card__position">COO</div>
+                    <div class="team__members__card__shortdesc" onclick="shadowbox_open('Frederick')">
+                        Having used discount toner cartridges for twenty years, there have been a lot of changes in the toner...
+                    </div>
+                    <a href="">
+                        <img src="img/facebook_button.svg" alt="" class="team__members__card__social">
+                    </a>
+                    <a href="">
+                        <img src="img/linkedIn_button.svg" alt="" class="team__members__card__social">
+                    </a>
+                </div>
+            </div>
+        </div>
     </div>
     <div class="contact" id="contact">
         <div class="contact__title">CONTACT US</div>
@@ -142,7 +142,39 @@
             <div class="footer__main__privacy"><a href="" class="footer_link">Privacy Policy</a></div>
         </div>
     </div>
-    <script src="js/main.js"></script>
+    <div class="shadowBox">
+        <div class="shadowBox__content">
+            <div onclick="shadowbox_close()" class="shadowBox__close"><img src="img/close.svg" alt=""></div>
+            <div class="shadowBox__content__title">Edgar Morrison</div>
+            <div class="shadowBox__content__position">CEO</div>
+            <div class="shadowBox__content__text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. </div>
+        </div>
+    </div>
+    <div class="shadowBox">
+        <div class="shadowBox__content">
+            <div onclick="shadowbox_close()" class="shadowBox__close"><img src="img/close.svg" alt=""></div>
+            <div class="shadowBox__content__title">Mae Martin</div>
+            <div class="shadowBox__content__position">CTO</div>
+            <div class="shadowBox__content__text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. </div>
+        </div>
+    </div>
+    <div class="shadowBox">
+        <div class="shadowBox__content">
+            <div onclick="shadowbox_close()" class="shadowBox__close"><img src="img/close.svg" alt=""></div>
+            <div class="shadowBox__content__title">David Banks</div>
+            <div class="shadowBox__content__position">CFO</div>
+            <div class="shadowBox__content__text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. </div>
+        </div>
+    </div>
+    <div class="shadowBox">
+        <div class="shadowBox__content">
+            <div onclick="shadowbox_close()" class="shadowBox__close"><img src="img/close.svg" alt=""></div>
+            <div class="shadowBox__content__title">Frederick Parsons</div>
+            <div class="shadowBox__content__position">COO</div>
+            <div class="shadowBox__content__text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. </div>
+        </div>
+    </div>
+    <script src="js/main.min.js"></script>
 </body>
 
 </html>

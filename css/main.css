@@ -1,11 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Sen:wght@400;700;800&display=swap');
+.noscroll {
+    overflow: hidden;
+}
 input {
     outline: none;
 }
 a {
     text-decoration: none;
 }
-html{
+html {
     scroll-behavior: smooth;
 }
 body {
@@ -28,9 +31,13 @@ body {
     list-style: none;
     display: inline-block;
 }
-.nav__list__elem > a {
+.nav__list__elem__link {
     text-decoration: none;
     color: #1C2085;
+    transition: .2s linear;
+}
+.current {
+    border-bottom: 1px solid #1C2085;
 }
 header {
     height: calc(100vh - 70px);
@@ -118,12 +125,12 @@ header {
     letter-spacing: 12px;
     margin-bottom: 34px;
 }
-.contact__title, .team__title {
+.contact__title,
+.team__title {
     line-height: 34px;
     letter-spacing: 12px;
     margin-bottom: 34px;
 }
-
 .contact__text {
     margin-bottom: 50px;
 }
@@ -226,32 +233,77 @@ button {
     width: 90vw;
     margin: 0 auto;
 }
-.team{
+.team {
     text-align: center;
     margin-bottom: 94px;
 }
-.team__members__card{
+.team__members__card {
     display: inline-block;
     text-align: center;
 }
-.team__members__card__photo{
+.team__members__card__photo {
     border-radius: 50%;
 }
-.team__members__card__social{
+.team__members__card__social {
     transition: .1s linear;
 }
-.team__members__card__social:hover{
+.team__members__card__social:hover {
     filter: brightness(.1);
 }
-.team__members__card__name{
+.team__members__card__name {
     margin: 10px 0;
     color: #38A5DB;
 }
-.team__members__card__position{
+.team__members__card__position {
     margin-bottom: 16px;
     color: #011226;
 }
-.team__members__card__shortdesc{
+.team__members__card__shortdesc {
     margin-bottom: 32px;
     color: #45515F;
+    cursor: pointer;
+    transition: .2s linear;
+}
+.team__members__card__shortdesc:hover {
+    color: #38A5DB;
+}
+.shadowBox {
+    height: 100vh;
+    background-color: rgba(37, 43, 66, .5);
+    z-index: 12;
+    position: fixed;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    display: none;
+}
+.shadowBox__content {
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+    top: 10vh;
+    background-color: white;
+    border-radius: 20px;
+}
+.shadowBox__content__text {
+    text-align: left;
+}
+.shadowBox__content__title {
+    color: #38A5DB;
+}
+.shadowBox__content__position {
+    color: #011226;
+}
+.shadowBox__content__text {
+    color: #45515F;
+}
+.shadowBox__close {
+    position: absolute;
+    right: 32px;
+    top: 32px;
+    cursor: pointer;
+    transition: .2s linear;
+}
+.shadowBox__close:hover {
+    filter: brightness(.5)
 }

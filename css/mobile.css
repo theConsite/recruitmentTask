@@ -5,81 +5,64 @@
         position: relative;
         top: 24px;
     }
-
     .nav__list {
         right: 70px;
         top: 12px;
     }
-
     .nav {
         padding: 0 27px 0 16px;
     }
-
     .nav__list__elem:first-of-type {
         padding-right: 12px;
     }
-
     .nav__list__elem:nth-of-type(2) {
         padding: 0 12px;
     }
-
     .nav__list__elem:last-of-type {
         padding-left: 12px;
     }
-
     .header {
         padding-left: 17px;
         padding-top: 110px;
     }
-
     .header__text {
         font-size: 24px;
         line-height: 32px;
         width: calc(100vw - 34px);
     }
-
     .header__newsletter__text {
         font-size: 14px;
     }
-
     .header__newsletter__mail {
         width: calc(100vw - 34px);
         margin-bottom: 16px;
     }
-
     .header__newsletter__button {
         width: calc(100vw - 34px);
     }
-
     .header__arrow {
         left: calc(50vw - 47px);
     }
-
     .socialIcons {
         width: 30px;
     }
-
     .socialIcons__img {
         width: 30px;
     }
-
     .contact__text {
         font-size: 14px;
     }
-
     .contact__form {
         width: 288px;
         height: 370px;
         padding: 84px 16px 0 16px;
         box-sizing: border-box;
     }
-
     .footer__header {
         grid-template-columns: 100%;
         margin-top: 44px;
         padding: 0 15px 22px 15px;
     }
-
     .footer__main {
         grid-template-columns: 50% 50%;
         font-size: 12px;
@@ -88,16 +71,16 @@
         padding: 22px 0 20px 0;
         background: white;
     }
-    .team__members__card{
+    .team__members__card {
         width: 136px;
         margin: 3px;
     }
-    .team__members{
+    .team__members {
         height: 340px;
         width: 640px;
         margin-bottom: 20px;
     }
-    .team__members__helper{
+    .team__members__helper {
         height: 360px;
         width: 100vw;
         overflow: scroll;
@@ -105,12 +88,28 @@
     .team__members__card__name {
         font-size: 16px;
     }
-
     .team__members__card__position {
         font-size: 13px;
     }
-
     .team__members__card__shortdesc {
         font-size: 12px;
+    }
+    .shadowBox__content {
+        max-width: calc(100vw - 32px);
+        padding: 72px 15px 30px 15px;
+        box-sizing: border-box;
+        max-height: 82vh;
+        overflow: scroll;
+    }
+    .shadowBox__content__title {
+        font-size: 24px;
+        margin-bottom: 24px;
+    }
+    .shadowBox__content__position {
+        margin-bottom: 32px;
+        font-size: 13px;
+    }
+    .shadowBox__content__text {
+        font-size: 13px;
     }
 }
