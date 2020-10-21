@@ -20,4 +20,11 @@
     .header__arrow{
         left: calc(50vw - 166px);
     }
+    .footer__main{
+        width: 850px;
+        position: relative;
+    }
+    .footer__header{
+        padding: 0 135px;
+    }
 }

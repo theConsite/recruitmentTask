@@ -61,4 +61,27 @@
         padding: 84px 41px 0 41px;
         box-sizing: border-box;
     }
+    .footer__header{
+        grid-template-columns: 33% 33% 33%;
+        margin-top: 44px;
+        padding: 0 15px;
+    }
+    .footer__main{
+        grid-template-columns: 25% 25% 25% 25%;
+        font-size: 18px;
+        line-height: 25px;
+        margin: 0 auto;
+        padding: 44px 0;
+    }
+    .footer_link{
+        color: #45515F;
+    }
+    .footer__main__faq{
+        border-left: 2px solid #9CA4C7;
+        border-right: 1px solid #9CA4C7;
+    }
+    .footer__main__terms{
+        border-left: 1px solid #9CA4C7;
+        border-right: 2px solid #9CA4C7;
+    }
 }
