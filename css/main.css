@@ -202,5 +202,14 @@ input, button{
 .footer__header__mail a{
     color: #0F81FF;
     font-size: 20px;
-    margin-top: 30px;
 }
+.videoContainer__video{
+    border-radius: 10px;
+    width: 90vw;
+}
+.videoContainer{
+    width: 90vw;
+        margin: 0 auto;
+        
+}
+
